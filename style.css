@@ -1,0 +1,86 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Black background */
+}
+
+/* Calculator container */
+.container {
+    border: 3px solid #27DDDF; /* Border color */
+    border-radius: 15px; /* Rounded corners */
+    padding: 25px;
+    background-color: #121212; /* Darker shade for container */
+    box-shadow: 0 4px 10px rgba(39, 221, 223, 0.3);
+    width: 300px;
+    text-align: center;
+}
+
+/* Title */
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #27DDDF; /* Title color */
+}
+
+/* Input group styling */
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    color: #fff; /* White text for labels */
+    font-size: 16px;
+    flex: 1;
+    text-align: left;
+}
+
+input[type="text"] {
+    flex: 2;
+    padding: 8px;
+    border: 2px solid #27DDDF;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    text-align: right;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #1FCACA;
+}
+
+/* Button styling */
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 8px 15px;
+    border: 2px solid #27DDDF;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #27DDDF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #27DDDF;
+    color: #000;
+    transform: scale(1.1);
+}
